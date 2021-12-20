@@ -1,8 +1,11 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+import css from './MainNavigation.module.css';
 
 function MainNavigation(){
-    return <header>
-        <div>
+    return (
+    <header className={css.header}>
+        <div className={css.logo}>
             React Meetups
         </div>
         <nav>
@@ -19,5 +22,6 @@ function MainNavigation(){
             </ul>
         </nav>
     </header>
+    );
 }
 export default MainNavigation;

@@ -6,6 +6,8 @@ import FavoritesPage from './pages/Favorites';
 import MainNavigation from "./components/layout/MainNavigation";
 import React from "react";
 
+
+
 function App() {
   return <div>
       <MainNavigation/>
